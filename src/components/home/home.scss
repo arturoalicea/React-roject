@@ -1,0 +1,71 @@
+.card {
+  height: 100vh;
+  font-family: "BebasNeue";
+  background-image: url("https://wmad.cs.vt.edu/images/code_background.png");
+  padding-top: 2.5rem;
+
+  @media (max-width: 600px) {
+    height: 100%;
+  }
+}
+
+.row {
+  padding-bottom: 1rem;
+}
+
+.card-header {
+  background-color: black;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.info {
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+img {
+  border-radius: 60vh;
+
+  &.profile {
+    height: 40vh;
+    width: 40vh;
+  }
+
+  &.linkedin {
+    height: auto;
+    width: 22%;
+    border-radius: 0vh;
+  }
+
+  &.resume {
+    height: auto;
+    width: 12%;
+    margin-right: -15px;
+  }
+}
+
+img.icon {
+  height: 30px;
+  width: 30px;
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: black;
+  }
+}
